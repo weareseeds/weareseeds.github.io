@@ -1,0 +1,121 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+    overflow: hidden;
+    height: 100%;
+    line-height: 1.4;
+}
+body {    
+    background-image: url("../assets/geo-background.png");
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    color: #40604e;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    overflow: hidden;
+    height: 100%;
+}
+
+hr {
+    width: 100px;
+    margin: 20px 0 10px 0;
+}
+
+.content-container {
+    background-color: rgba(255,255,255,0.7);
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    z-index: 10;
+    color: #40604e;
+}
+
+img {
+    max-height: 275px;
+}
+
+.social-media-icons {
+    margin: 0 auto;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-media-icons img {
+    height: 40px;
+}
+img.envelop-icon {
+    height: 32px;
+    padding: 4px;
+    background-color: white;
+    border-radius: 3px;
+}
+.quote-container {
+    margin: 40px 0 0 0;
+}
+.quote {
+    font-style: italic;
+}
+
+@media screen and (max-width: 500px) {
+    .content-container {
+        padding: 25px 15px;
+    }
+    img {
+        max-width: 45vw;
+    }
+    .social-media-icons {
+        margin: 0 auto;
+        width: 180px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .social-media-icons img {
+        height: 30px;
+    }
+    img.envelop-icon {
+        height: 24px;
+        padding: 3px;
+        background-color: white;
+        border-radius: 3px;
+    }
+    .quote-container {
+        width: 65vw;
+        font-size: 12px;
+    }
+    .text-container {
+        font-size: 15px;
+        color: #40604e;
+    }
+    hr {
+        width: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
