@@ -16,6 +16,7 @@ html {
 }
 body {    
     background-image: url("../assets/geo-background1280.png");
+    background-size: cover;
     width: 100vw;
     display: flex;
     flex-direction: column;
